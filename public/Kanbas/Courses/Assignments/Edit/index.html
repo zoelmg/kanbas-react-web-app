@@ -1,0 +1,89 @@
+<select id="assignment-option">
+    <option value="edit-option">Edit</option>
+    <option selected value="speed-grader-option">Speed Grader</option>
+    <option value="duplicate-option">Duplicate</option>
+    <option value="delete-option">Delete</option>
+    <option value="move-to-option">Move To...</option>
+    <option value="sent-to-option">Sent To...</option>
+    <option value="copy-to-option">Copy To...</option>
+    <option value="share-option">Share to Commons</option>
+</select>
+<hr>
+<h2> Assignment Name</h2>
+<input type="text" value="A1 - ENV + html"/><br/>
+<br>
+<form id="assignment-name">
+    <textarea cols="20" rows="3">This is the assignment description
+    </textarea>
+ </form>
+ <br>
+Points <br>
+<input type="text" value="100"/><br/>
+<br>
+
+Assignment Group <br>
+<select id="assignment-group">
+    <option selected value="assignment">ASSIGNMENTS</option>
+    <option value="quiz">QUIZZES</option>
+    <option value="exam">EXAM</option>
+    <option value="project">PROJECT</option>
+</select><br/>
+<br>
+
+Display Grade as <br>
+<select id="display-grade">
+    <option selected value="percentage">Percentage</option>
+    <option value="points">Points</option>
+</select> <br/>
+<br>
+
+
+Submission Type <br>
+<select id="submission-type">
+    <option selected value="online">Online</option>
+    <option value="in-person">In-Person</option>
+</select> <br/>
+<br>
+
+Online Entry Options <br>
+<input type="checkbox" value="text-entry"/>
+<label>Text Entry</label>    <br/>
+
+<input type="checkbox" value="website-url"/>
+<label >Website URL</label> <br/>
+
+<input type="checkbox" value="media-recordings"/>
+<label >Media Recordings</label> <br/>
+<input type="checkbox" value="student-annotations"/>
+<label >Student Annotation</label> <br/>
+<input type="checkbox" value="file-uploads"/>
+<label >File Uploads</label> <br/>
+<br/> <br>
+
+Assign <br>
+Assign to <br>
+<input type="text" value="everyone"/><br/>
+
+
+<br>
+<label for="due-date"> Due </label> <br>
+<input type="date"
+      id="due-date"
+      value="2021-01-01"/><br/>
+<br>
+<br>
+<label for="available-date"> Available from </label> <br>
+<input type="date"
+      id="available-date"
+      value="2021-01-01"/><br/>
+<br>
+
+<br>
+<label for="until-date"> Until</label> <br>
+<input type="date"
+      id="until-date"
+      value="2021-01-01"/><br/>
+<br>
+
+<button type="button" onclick="location.href='../screen.html'">Cancel </button>
+<button type="button" onclick="location.href='../screen.html'">Save</button>
