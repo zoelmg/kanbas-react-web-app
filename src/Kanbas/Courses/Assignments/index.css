@@ -1,0 +1,46 @@
+
+.list-group-item {
+    font-size: 20px; 
+    position: relative;
+  }
+  
+ 
+  .list-group-item .float-end,
+  .list-group-item a {
+    font-size: 20px; 
+  }
+
+  .list-group-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px; 
+    height: 100%; 
+    background-color: green; 
+  }
+
+  .list-group-item a {
+    color: inherit; 
+    text-decoration: none; 
+  }
+  
+  .list-group-item a:hover {
+    text-decoration: none; 
+  }
+
+  .list-group-item > div > span.bold-text {
+    font-weight: bold; 
+}
+
+
+.search-input {
+    background-color: rgb(225, 229, 229);
+    color: #000000;
+    border:10px;
+    border-radius: 4px;
+    padding: 8px 16px;
+    margin-right: 8px; 
+    font-size: 14px;
+    cursor: pointer;
+  }

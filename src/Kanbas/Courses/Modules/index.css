@@ -1,0 +1,36 @@
+.canvas-button {
+    background-color: #e2e2e2;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    margin-right: 8px; 
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .list-group {
+    max-height: 1000px; 
+    overflow: hidden;
+    transition: max-height 0.8s ease-in-out; 
+  }
+  
+  .list-group.collapsed {
+    max-height: 0; 
+  }
+
+  .module-list-item {
+    margin-bottom: 20px; 
+  }
+
+  .list-group-item .module-name {
+    font-size: 1em; 
+}
+
+.list-group-item svg {
+    font-size: 1em; 
+}
+
+.list-group-item {
+    font-size: 1.3em; 
+}

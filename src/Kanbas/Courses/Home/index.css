@@ -1,0 +1,39 @@
+.canvas-button3 {
+    background-color: #e2e2e2;
+    color: #000000; 
+    border: none;
+    border-radius: 2px;
+    padding: 8px 16px;
+    margin: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    display: inline-block; 
+    width: 230px; 
+    text-align: left; 
+}
+
+.canvas-button2 {
+    background-color: #e2e2e2;
+    color: #000000;
+    border: none;
+    border-radius: 2px;
+    padding: 8px 16px;
+    margin: 2px; 
+    font-size: 14px;
+    width: 112px;
+    cursor: pointer;
+}
+
+.lecture {
+    color: red;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.lecture p{
+    font-size: 12px;
+    color:#504c4c;
+    margin: 2px 0;
+}
+
+

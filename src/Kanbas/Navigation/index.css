@@ -1,0 +1,61 @@
+.wd-kanbas-navigation {
+    background-color: black;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    width: 80px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block; 
+}
+
+.wd-kanbas-navigation li {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.wd-kanbas-navigation li.wd-active {
+    background-color: white;
+}
+
+.wd-kanbas-navigation li.wd-active a {
+    color: red;
+}
+
+.wd-kanbas-navigation a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.wd-kanbas-navigation .fs-2 {
+    color: red;
+}
+
+
+.wd-kanbas-navigation .account-icon{
+    color: white;
+    font-size: 40px;
+}
+
+.wd-kanbas-navigation a img {
+    max-width: 60px;
+    height: auto;
+}
+
+.account-icon .fas {
+    color: white;
+}
+
+.content-column {
+    padding-left: 100px;
+}
