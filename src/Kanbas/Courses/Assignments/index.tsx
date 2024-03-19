@@ -2,7 +2,7 @@ import React from "react";
 import { FaCheckCircle, FaEllipsisV, FaPlusCircle } from "react-icons/fa";
 import { RxDragHandleDots2 } from "react-icons/rx";
 import { Link, useParams } from "react-router-dom";
-import { assignments } from "../../Database";
+import db from "../../Database";
 import { LuClipboardEdit } from "react-icons/lu";
 import { IoIosAdd } from "react-icons/io";
 import { BsThreeDotsVertical } from "react-icons/bs";
@@ -11,7 +11,7 @@ import "./index.css";
 
 function Assignments() {
     const { courseId } = useParams();
-    const assignmentList = assignments.filter(
+    const assignmentList = db.assignments.filter(
         (assignment) => assignment.course === courseId
     );
 
