@@ -59,11 +59,12 @@ function Kanbas() {
           }
         })
       );
+  
         
     setCourse({
         _id: "0",
-        name: "Update Success: Enter New Course",
-        number: "Update Success: Enter New Number",
+        name: "Enter New Course",
+        number: "Enter New Number",
         startDate: "2023-09-10",
         endDate: "2023-12-15",
     });
